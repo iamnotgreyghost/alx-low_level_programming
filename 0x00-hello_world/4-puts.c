@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
 
  * main - Function starts
@@ -11,8 +9,6 @@
  * Return: Function closes
 
  */
-
-
 
 int main(void)
   
