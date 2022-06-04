@@ -2,20 +2,20 @@
 
 
 
-   /**
+/**
 
-    * main - Entry point
+ * main - Function starts
 
-    *
+ *
 
-    * Return: Always 0 (Success)
+ * Return: Function closes
 
-    */
+ */
 
 
 
 int main(void)
-
+  
 {
   
   puts("\"Programming is like building a multilingual puzzle");
