@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include <stdio>
+
 /**
- * main - Function starts 
+ * main - Function starts
  *
  * Return: Function closes
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
