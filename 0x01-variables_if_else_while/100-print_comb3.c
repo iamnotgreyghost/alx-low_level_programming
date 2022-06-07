@@ -10,27 +10,25 @@ int main(void)
 
 {
 
-	int i;
+	int a, b;
 
-	int j;
-
-	for (i = 48; i < 58; i++)
+	for (a = 48; a < 58; a++)
 
 	{
 
-		for (j = 48; j < 58; j++)
+		for (b = 49; b < 58; b++)
 
 		{
 
-			if (i != j && i < j)
+			if (a != b && a < b)
 
 			{
 
-				putchar(i);
+				putchar(a);
 
-				putchar(j);
+				putchar(b);
 
-				if (j == 57 && i == 56)
+				if (a == 56 && b == 57)
 
 				{
 
@@ -53,5 +51,6 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
 
 }
