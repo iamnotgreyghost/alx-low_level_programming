@@ -1,7 +1,6 @@
-include "main.h"
+#include "main.h"
 
 /**
- *
  * print_alphabet_x10 - prints small letter alphabets ten times
  */
 
