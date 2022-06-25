@@ -4,18 +4,12 @@
 /**
  * main - a program that prints the minimum number
  * of coins to make change for an amount of money
- *
  * @argc: number of arguments
- *
  * @argv: returns a list of arguments
- *
  * Return: always 0
  */
-
 int main(int argc, char *argv[])
-
 {
-
 	int cents, coins = 0;
 
 	if (argc == 2)
