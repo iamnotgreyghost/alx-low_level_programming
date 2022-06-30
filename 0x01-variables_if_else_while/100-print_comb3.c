@@ -1,40 +1,42 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success/correct)
+ * main - print possible combinations
+ * of two digit numbers without repeating
+ * two single digits and having the same digits
+ * combined alternately
+ * Return: 0 if successful
  */
 
 int main(void)
 
 {
 
-	int a, b;
+	int i;
 
-	for (a = 48; a < 58; a++)
+	int j;
+
+	for (i = 48; i < 58; i++)
 
 	{
 
-		for (b = 49; b < 58; b++)
+		for (j = 48; j < 58; j++)
 
 		{
 
-			if (a != b && a < b)
+			if (i != j && i < j)
 
 			{
 
-				putchar(a);
+				putchar(i);
 
-				putchar(b);
+				putchar(j);
 
-				if (a == 56 && b == 57)
+				if (j == 57 && i == 56)
 
 				{
 
-					break
-
-						;
+					break;
 
 				}
 
@@ -51,6 +53,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 
 }
